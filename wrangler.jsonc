@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "blog",
+  "name": "sunnyblog",
   "compatibility_date": "2024-04-03",
   "assets": {
     "directory": "./dist"
