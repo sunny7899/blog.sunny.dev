@@ -181,4 +181,10 @@ Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [contrib
 
 
 -------------
-cloudflare worker pages for hosting
+ using astro framework and cloudflare worker pages for hosting
+https://astro.build/themes/details/astropaper/
+https://github.com/satnaing/astro-paper
+https://pages.cloudflare.com/
+http://localhost:4321/posts/the-control-room-of-your-angular-workspace
+http://localhost:4321/posts/astro-paper-v5
+http://localhost:4321/posts/examples/how-do-i-develop-my-terminal-portfolio-website-with-react

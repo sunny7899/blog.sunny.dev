@@ -3,35 +3,23 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Hi, I’m Sunny 👋
+![Astro Paper](public/gde.gif)
+I’m a developer who enjoys building clean, practical, and scalable digital products. My work mostly revolves around modern web technologies like Angular, React, and FastAPI, with a strong focus on creating tools that solve real-world problems.
 
-![Astro Paper](public/astropaper-og.jpg)
+Over time, I’ve worked on projects ranging from secure authentication systems and AI-powered tools to content platforms and productivity apps. I’m particularly interested in how thoughtful design and intelligent systems can come together to improve everyday workflows—whether that’s helping creators manage content, simplifying complex processes, or building scalable enterprise solutions.
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+This blog is where I share what I learn along the way:
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+* Practical guides and deep dives into modern development
+* Real-world challenges (and how I approach solving them)
+* Insights into building scalable and maintainable systems
+* Experiments with AI, automation, and new tools
 
-## Features
+I don’t believe in overcomplicating things. If something can be explained simply and built efficiently, that’s usually the better path.
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+When I’m not coding, I’m probably exploring new ideas, refining side projects, or figuring out better ways to build and ship faster.
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+---
 
-and so much more.
-
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+If you’re into building things that actually matter, you’ll feel at home here.

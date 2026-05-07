@@ -1,10 +1,10 @@
 ---
-title: Example Draft Post
-author: Sat Naing
-pubDatetime: 2022-06-06T04:06:31Z
-slug: example-draft-post
+title: 
+author: Sunny
+pubDatetime: 2026-06-02T04:06:31Z
+slug: 
 featured: false
-draft: true
+draft: false
 tags:
   - TypeScript
   - Astro
@@ -14,8 +14,4 @@ description:
   fringilla est
 ---
 
-Users cannot see this post because it is in draft.
 
-## Motivation
-
-rec 1
