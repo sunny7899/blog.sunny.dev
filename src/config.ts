@@ -1,7 +1,7 @@
 export const SITE = {
   website: "https://sunnyblog.apexmansunny.workers.dev/", // replace this with your deployed domain
   author: "Sunny",
-  profile: "https://satnaing.dev/",
+  profile: "https://code-for-next-generation.vercel.app/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "SunnyWriteUps",
   ogImage: "ang.jpg",
