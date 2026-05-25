@@ -1,7 +1,7 @@
 ---
 title: Angular component dependency graph
 author: Sunny
-pubDatetime: 2026-05-02T04:06:31Z
+pubDatetime: 2026-05-13T04:06:31Z
 slug: angular-component-dependency-graph
 featured: false
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: Mastering TypeScript Fundamentals A Complete Guide for Developers
 author: Sunny
-pubDatetime: 2026-05-18T04:06:31Z
+pubDatetime: 2026-05-10T04:06:31Z
 slug: mastering-typescript-fundamentals-a-complete-guide-for-developers
 featured: false
 draft: false
@@ -222,7 +222,7 @@ interface User {
 
 const user: User = {
   id: 101,
-  name: "Sunny"
+  name: "test"
 };
 
 user.name = "Rahul"; // allowed
@@ -246,7 +246,7 @@ Type assertions tell the compiler to treat a value as a specific type.
 ```ts
 const input = document.getElementById("username") as HTMLInputElement;
 
-input.value = "Sunny";
+input.value = "test";
 ```
 
 ## Common Use Cases

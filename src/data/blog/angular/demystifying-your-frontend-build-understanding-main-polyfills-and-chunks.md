@@ -7,7 +7,7 @@ featured: false
 draft: false
 tags:
   - TypeScript
-  - Astro
+  - Angular
 description:
   If you've ever wondered what these files actually do, or panicked because your `main.js` is looking dangerously large, you aren't alone. Understanding your build output is the first step to optimizing your application's load time and performance.
 ---

@@ -6,7 +6,7 @@ slug: getting-started-with-astro-and-cloudflare-pages
 featured: false
 draft: false
 tags:
-  - TypeScript
+  - Cloudflare
   - Astro
 description:
   If you are hunting for the ultimate web development stack—one that delivers blisteringly fast load times, phenomenal developer experience (DX), and seamless global deployments—you’ve likely heard the buzz around Astro and Cloudflare. 

@@ -7,7 +7,7 @@ featured: false
 draft: false
 tags:
   - TypeScript
-  - Astro
+  - Angular
 description:
   Have you ever built a pristine, perfectly styled custom search bar or a specialized data entry form in Angular, only to have the browser aggressively slap its own native autocomplete dropdown right over your beautiful UI? Or worse, have you watched a mobile browser "autocorrect" a user's unique identification code into a random dictionary word?
 ---

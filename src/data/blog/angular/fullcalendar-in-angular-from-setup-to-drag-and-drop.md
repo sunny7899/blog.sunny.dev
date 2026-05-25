@@ -1,13 +1,14 @@
 ---
 title: The Ultimate Guide to FullCalendar in Angular From Setup to Drag-and-Drop
 author: Sunny
-pubDatetime: 2026-06-02T04:06:31Z
+pubDatetime: 2026-05-12T04:06:31Z
 slug: fullcalendar-in-angular-from-setup-to-drag-and-drop
 featured: false
 draft: false
 tags:
   - TypeScript
-  - Astro
+  - FullCalendar
+  - Angular
 description:
   FullCalendar is the gold standard for JavaScript calendars, but integrating it with Angular’s strict typing and component structure can sometimes be tricky. This guide will walk you through building a robust calendar application with CRUD (Create, Read, Update, Delete) capabilities, drag-and-drop interactions, and a polished user experience.
 ---
