@@ -146,6 +146,8 @@ Finally, let's briefly look at the `serve` target. This is what runs when you ty
 
 Notice the **`browserTarget`** key. The `serve` command doesn't actually compile your code itself; it just tells the `build` target to run in memory and host the result on `localhost:4200`. 
 
+Note: The "@angular-devkit/build-angular:dev-server" builder is deprecated as part of Angular's Webpack support deprecation. Use "@angular/build:dev-server" instead. For more information, see https://angular.dev/tools/cli/build-system-migration.
+
 ## Summary
 
 While `angular.json` can feel overwhelming, it's highly logical once you understand the hierarchy:
