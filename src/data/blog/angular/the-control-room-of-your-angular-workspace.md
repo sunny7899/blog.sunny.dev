@@ -8,7 +8,8 @@ featured: true
 draft: false
 tags:
   - Angular
-description: If you’ve ever generated a new Angular project, you’ve likely noticed a rather intimidating file sitting at the root of your directory angular.json. 
+description: If you’ve ever generated a new Angular project, you’ve likely noticed a rather
+      intimidating file sitting at the root of your directory angular.json. 
 ---
 
 At first glance, it looks like a massive, deeply nested wall of text. It's easy to ignore it and let the Angular CLI do its magic behind the scenes. However, understanding `angular.json` is a rite of passage for Angular developers. It is the heart of your workspace, dictating how your app is built, served, tested, and deployed.
