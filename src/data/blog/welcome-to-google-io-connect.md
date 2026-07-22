@@ -64,3 +64,8 @@ The event includes in-depth talks, immersive hands-on learning with Google exper
 
 To give developers the opportunity to experience Google’s new developer products in a memorable way, Google partnered with Sparks to create a dynamic outdoor festival environment designed to empower developers through content, access, connection, and excitement.
 
+For a few days every year, Google I/O takes over more than 10.5 acres within the Shoreline Amphitheater property in Mountain View, CA, bringing together over 10,000 developers from around the world. 
+Vibe Coding Lounge at I/O Connect - 40-minute rapid coding sprints at the high-focus Vibe Lounge - Experts of vibe lounge 
+Network at the Community Lounges
+record sessions at the Creator Studio
+speakers and workshop facilitators
