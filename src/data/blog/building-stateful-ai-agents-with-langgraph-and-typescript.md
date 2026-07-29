@@ -378,3 +378,9 @@ Together, they enable developers to build AI agents that are not only intelligen
 As AI continues to evolve, the teams that succeed won't just have access to the best models—they'll build the best systems around them.
 
 **Have you started building with LangGraph? What challenges have you encountered while creating stateful AI agents? Share your experience in the comments.**
+
+LangGraph for Beginners! 
+Chapter 1 -Understanding Nodes, State, and Edges
+Chapter 2 -  Building Dynamic Graphs with Conditional Edges
+Chapter 3 -  Adding Memory to the Graph
+Durable Short-Term memory
