@@ -1,0 +1,64 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Breadcrumb from "../components/Breadcrumb.astro";
+
+const title = "Contact Us";
+const description = "Get in touch with the author and maintainers of SunnyWriteUps.";
+---
+
+<Layout title={`${title} | SunnyWriteUps`} description={description}>
+  <Header activeNav="about" />
+  <Breadcrumb />
+  <main id="main-content" class="app-layout py-8">
+    <section id="contact" class="prose max-w-3xl dark:prose-invert">
+      <h1 class="text-2xl font-semibold tracking-wide sm:text-3xl">{title}</h1>
+      <p class="mt-2 text-foreground/80">
+        Have questions, feedback, business inquiries, or suggestions? Feel free to reach out using the contact information or form below!
+      </p>
+
+      <div class="mt-8 space-y-6">
+        <div class="rounded-lg border border-border p-6 shadow-sm">
+          <h2 class="text-xl font-medium mb-3">Direct Contact</h2>
+          <ul class="space-y-2">
+            <li>
+              <strong>Email:</strong> <a href="mailto:contact@apexmansunny.dev" class="text-accent underline">contact@apexmansunny.dev</a>
+            </li>
+            <li>
+              <strong>Author Profile:</strong> <a href="https://code-for-next-generation.vercel.app/" target="_blank" rel="noopener noreferrer" class="text-accent underline">Sunny's Portfolio</a>
+            </li>
+            <li>
+              <strong>GitHub Repository:</strong> <a href="https://github.com/sunny7899/blog.sunny.dev" target="_blank" rel="noopener noreferrer" class="text-accent underline">github.com/sunny7899/blog.sunny.dev</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="rounded-lg border border-border p-6 shadow-sm">
+          <h2 class="text-xl font-medium mb-4">Send a Message</h2>
+          <form class="space-y-4" action="mailto:contact@apexmansunny.dev" method="post" enctype="text/plain">
+            <div>
+              <label for="name" class="block font-medium mb-1">Your Name</label>
+              <input type="text" id="name" name="name" required class="w-full rounded border border-border bg-background px-3 py-2 text-foreground focus:outline-none focus:ring-2 focus:ring-accent" placeholder="John Doe" />
+            </div>
+
+            <div>
+              <label for="email" class="block font-medium mb-1">Your Email</label>
+              <input type="email" id="email" name="email" required class="w-full rounded border border-border bg-background px-3 py-2 text-foreground focus:outline-none focus:ring-2 focus:ring-accent" placeholder="john@example.com" />
+            </div>
+
+            <div>
+              <label for="message" class="block font-medium mb-1">Message</label>
+              <textarea id="message" name="message" rows="4" required class="w-full rounded border border-border bg-background px-3 py-2 text-foreground focus:outline-none focus:ring-2 focus:ring-accent" placeholder="Write your message here..."></textarea>
+            </div>
+
+            <button type="submit" class="rounded bg-accent px-5 py-2 font-medium text-accent-foreground transition hover:opacity-90">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

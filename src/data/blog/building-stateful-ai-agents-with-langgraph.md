@@ -1,5 +1,5 @@
 ---
-title: Building Stateful AI Agents with LangGraph and TypeScript
+title: Building Stateful AI Agents with LangGraph
 author: Sunny
 pubDatetime: 2026-06-04T04:06:31Z
 slug: building-stateful-ai-agents-with-langgraph

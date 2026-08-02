@@ -23,10 +23,38 @@ const { noMarginTop = false, class: className, ...attrs } = Astro.props;
     ]}
   >
     <Socials />
-    <div class="my-2 flex flex-col items-center whitespace-nowrap sm:flex-row">
-      <span>Copyright &#169; {currentYear}</span>
-      <span class="hidden sm:inline">&nbsp;|&nbsp;</span>
-      <span>All rights reserved.</span>
+    <div
+      class="my-2 flex flex-col items-center gap-2 text-sm sm:flex-row sm:gap-4"
+    >
+      <div class="flex items-center space-x-3">
+        <a
+          href="/about"
+          class="underline decoration-dashed underline-offset-4 hover:text-accent"
+          >About</a
+        >
+
+        <a
+          href="/contact"
+          class="underline decoration-dashed underline-offset-4 hover:text-accent"
+          >Contact</a
+        >
+
+        <a
+          href="/privacy"
+          class="underline decoration-dashed underline-offset-4 hover:text-accent"
+          >Privacy Policy</a
+        >
+
+        <a
+          href="/terms"
+          class="underline decoration-dashed underline-offset-4 hover:text-accent"
+          >Terms & Conditions</a
+        >
+      </div>
+      <div class="flex items-center">
+        <span class="hidden sm:inline">&nbsp;|&nbsp;</span>
+        <span>Copyright &#169; {currentYear} All rights reserved.</span>
+      </div>
     </div>
   </div>
 </footer>
