@@ -135,3 +135,11 @@ By leveraging the Gemini API's **Structured Outputs** for predictable data and *
 Ready to build? The fastest way to get started is the [Google AI Studio](https://aistudio.google.com/), where you can test your schemas and caching strategies before writing a single line of code.
 
 ---
+gemini api docs
+Gemini Developer API | Gemma open models  |  Google AI for Developers
+(https://ai.google.dev/)
+https://ai.google.dev/gemini-api/docs/api-key  
+https://makersuite.google.com/app/apikey  gemini api key
+https://ai.google.dev/gemini-api/docs/embeddings
+https://ai.google.dev/gemini-api/docs/webhooks
+https://ai.google.dev/gemini-api/docs/rate-limits#usage-tiers

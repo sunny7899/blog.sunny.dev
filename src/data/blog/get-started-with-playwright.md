@@ -6,8 +6,7 @@ slug: get-started-with-playwright
 featured: false
 draft: false
 tags:
-  - SRE
-  - Devops
+  - playwright
 description:
   Imagine opening your favorite streaming platform during a major sporting event and finding it unavailable Or attempting an online payment only to encounter a server error Or searching the web and receiving no results.
 ---
@@ -138,6 +137,10 @@ If you are only building a scraper, you almost never need Firefox or WebKit. Chr
 npx playwright install chromium
 
 ```
+if you still face any issue
+Win + r -> cmd -> %LOCALAPPDATA%\ms-playwright -> check chromium is there are not
+Chrome for Testing -> you can install this manually also.
+https://developer.chrome.com/blog/chrome-for-testing/
 
 You can then launch it in your code using `const { chromium } = require('playwright');`.
 
@@ -157,3 +160,4 @@ This commands Playwright to install Chromium *and* ask the OS package manager (l
 ---
 
 > **Key insight:** Playwright ties the browser binary versions directly to the NPM package version. If you ever update Playwright in your `package.json` (e.g., `npm update playwright`), you **must** run `npx playwright install` again to fetch the newly matched browser versions.
+

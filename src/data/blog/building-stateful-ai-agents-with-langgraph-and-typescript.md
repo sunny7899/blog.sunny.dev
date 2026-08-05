@@ -384,3 +384,12 @@ Chapter 1 -Understanding Nodes, State, and Edges
 Chapter 2 -  Building Dynamic Graphs with Conditional Edges
 Chapter 3 -  Adding Memory to the Graph
 Durable Short-Term memory
+
+
+What are AI agents? (Examples: chatbots, automation tools, assistants, research agents)
+The agent can take many forms— chatbot, automation tool, research assistant, code generator, data visualization tool,
+Agent Type: Any form of intelligent application is allowed—such as chatbots, virtual assistants, research tools, code generators, or data visualization agents.
+Core capabilities of agents: statefulness, prompt context, responsiveness, and output generation
+
+Overview of the Model Context Protocol (MCP) and how it facilitates structured communication between users and AI models
+Learn about transports like SSE and Streamable HTTP used by MCP
