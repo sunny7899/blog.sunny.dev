@@ -3,12 +3,13 @@ title: Angular skills
 author: Sunny
 pubDatetime: 2026-07-11T04:06:31Z
 slug: angular-skills
-featured: false
+featured: true
 draft: false
 tags:
   - AI agents
+  - Angular skills
 description:
-  The angular/skills repository is Angular's official collection of **Agent Skills**—reusable instruction packages that teach AI coding assistants how to work effectively with Angular. Rather than fine-tuning a model, these skills provide structured, task-specific knowledge that an agent loads only when needed. 
+  The angular/skills repository is Angular's official collection of Agent Skills—reusable instruction packages that teach AI coding assistants how to work effectively with Angular. Rather than fine-tuning a model, these skills provide structured, task-specific knowledge that an agent loads only when needed. 
 ---
 ### What is an Agent Skill?
 

@@ -6,8 +6,8 @@ slug: why-bazel-is-the-ultimate-build-tool-for-modern-development
 featured: false
 draft: false
 tags:
-  - SRE
-  - Devops
+  - Bazel
+  - Bazelisk
 description:
   If you've ever waited minutes (or hours) for a build to finish, or chased a phantom bug that magically disappeared after a `make clean`, you know the frustration of traditional build systems. As projects scale, tools that once felt snappy start to drag, heavily impacting developer velocity.
 

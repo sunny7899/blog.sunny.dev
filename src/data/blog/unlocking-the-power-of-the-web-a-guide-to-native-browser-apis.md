@@ -6,8 +6,8 @@ slug: unlocking-the-power-of-the-web-a-guide-to-native-browser-apis
 featured: false
 draft: false
 tags:
-  - SRE
-  - Devops
+  - Javascript
+  - Browser APIs
 description:
   Imagine opening your favorite streaming platform during a major sporting event and finding it unavailable Or attempting an online payment only to encounter a server error Or searching the web and receiving no results.
 ---

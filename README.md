@@ -1,5 +1,5 @@
-count- 34
-pubDatetime next: 8 aug
+count- 37
+pubDatetime next: 11 aug
 
 need all these pages-
 Terms & Conditions
@@ -29,3 +29,4 @@ Regularly scan for and fix 404 errors. Set up proper 301 redirects for
 
 At least 2 pages indexed in Google (simulated)
 Ensure your key pages are indexed by Google. Check using 'site:yourdomain.com' search in Google and monitor Google Search Console.
+Send Message

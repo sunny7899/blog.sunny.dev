@@ -7,7 +7,7 @@ featured: false
 draft: false
 tags:
   - Marked
-  - Markdown
+  - ngx-markdown
   - Angular
 description:
   Markdown has become the standard format for writing documentation, blog posts, release notes, knowledge bases, and AI-generated content. Instead of storing large HTML strings, developers can write content in a clean and readable Markdown format and render it dynamically in Angular applications.

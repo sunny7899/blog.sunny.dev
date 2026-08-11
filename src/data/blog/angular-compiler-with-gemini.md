@@ -6,8 +6,8 @@ slug: angular-compiler-with-gemini
 featured: false
 draft: false
 tags:
-  - SRE
-  - Devops
+  - Angular
+  - Gemini
 description:
   The construction, optimization, and maintenance of compilers for modern JavaScript web frameworks represent some of the most formidable software engineering challenges in the contemporary frontend ecosystem. Framework compilers are tasked with translating high-level, declarative, and heavily customized abstractions—such as decorators, reactive primitives, structural directives, and domain-specific templating languages—into optimized, highly performant, executable JavaScript. Within the context of the Angular framework, this compilation pipeline is notoriously intricate. It relies on a sophisticated Ahead-of-Time (AOT) compilation strategy that bridges TypeScript semantics with the framework’s internal Render3 (Ivy) instruction set, demanding global program analysis to guarantee type safety and structural integrity.  
 ---

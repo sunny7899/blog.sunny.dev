@@ -6,8 +6,9 @@ slug: microfrontend-mobile-angular-ionic-app-would-it-adhere-to-appstore-rules
 featured: false
 draft: false
 tags:
-  - SRE
-  - Devops
+  - Microfrontends
+  - Angular
+  - Ionic
 description:
   The web development world has firmly embraced Microfrontends (MFE). Splitting a monolithic application into smaller, independently deployable modules using tools like Webpack Module Federation (or Native Federation) has solved massive scaling issues for enterprise teams.
   But a fascinating question arises when you take web tech to mobile Can you use Microfrontends inside a mobile Angular + Ionic application? And more importantly, will Apple and Google allow it?

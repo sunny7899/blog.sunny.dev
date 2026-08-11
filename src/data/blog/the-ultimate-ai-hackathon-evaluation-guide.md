@@ -7,6 +7,8 @@ featured: false
 draft: false
 tags:
   - hackathon
+  - Antigravity
+  - AI Studio
 description:
   When evaluating an AI hackathon—especially one centered around next-generation tools like Google Antigravity or Google AI Studio—traditional rubrics often fall short. You aren't just looking at standard CRUD applications; you are evaluating autonomous agents, multimodal reasoning, and dynamic, vibe-coded environments.
 ---

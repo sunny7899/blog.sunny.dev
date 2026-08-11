@@ -7,6 +7,7 @@ featured: false
 draft: false
 tags:
   - AI agents
+  - LangGraph
 description:
   AI agents have evolved beyond simple prompt-response interactions. Modern applications need agents that can remember context, recover from failures, coordinate multiple tools, and execute complex workflows over time. This is where **stateful AI agents** come into play.
 ---

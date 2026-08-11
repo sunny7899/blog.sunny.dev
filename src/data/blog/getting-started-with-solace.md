@@ -8,6 +8,7 @@ draft: false
 tags:
   - Solace
   - Architecture
+  - Backend
 description:
   Modern applications demand real-time communication, scalability, and seamless integration across distributed systems. Traditional request-response architectures often struggle when applications need instant updates, asynchronous messaging, and high-throughput event processing. This is where Solace becomes a powerful solution.
 ---

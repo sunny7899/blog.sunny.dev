@@ -6,8 +6,9 @@ slug: build-your-own-docs-to-mcp
 featured: false
 draft: false
 tags:
-  - SRE
-  - Devops
+  - MCP
+  - AI agents
+  - LLMs
 description:
   Documentation has always been written for humans.
 ---

@@ -7,6 +7,7 @@ featured: false
 draft: false
 tags:
   - Google
+  - AI developments
 description:
   Google's strategy in 2026 has officially shifted from simply answering questions to actively doing work for you. Following Google I/O in May 2026, the company marked the beginning of the "agentic" AI era, rebuilding its entire ecosystem—from Search to Android—around the Gemini family of models.
 ---

@@ -6,7 +6,8 @@ slug: get-started-with-playwright
 featured: false
 draft: false
 tags:
-  - playwright
+  - Playwright
+  - Nodejs
 description:
   Imagine opening your favorite streaming platform during a major sporting event and finding it unavailable Or attempting an online payment only to encounter a server error Or searching the web and receiving no results.
 ---

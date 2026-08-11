@@ -6,8 +6,8 @@ slug: how-would-you-architect-a-large-angular-app
 featured: false
 draft: false
 tags:
-  - SRE
-  - Devops
+  - Angular
+  - WebApp
 description:
   For a large Angular application,  focus on **performance, scalability, maintainability, and security** by combining lazy loading, dynamic module loading, and role-based access control (RBAC).
 ---

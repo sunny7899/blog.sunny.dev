@@ -6,8 +6,10 @@ slug: getting-started-with-swift-and-swiftui-to-develop-ios-apps
 featured: false
 draft: false
 tags:
-  - Swift
+  - SwiftUI
   - iOS
+  - Mobile Apps
+  - Apple
 description:
   The Apple ecosystem continues to grow rapidly, and building iOS applications has never been more exciting. Whether you want to create productivity tools, social apps, AI-powered solutions, or enterprise-grade applications, learning Swift and SwiftUI is the perfect starting point.
 ---

@@ -7,6 +7,8 @@ featured: false
 draft: false
 tags:
   - AI agents
+  - LangGraph
+  - TypeScript
 description:
   Stateless chatbots can answer questions. Stateful AI agents can solve problems.
 ---

@@ -6,7 +6,7 @@ slug: gemini-api-to-streamline-your-documentation-workflow
 featured: false
 draft: false
 tags:
-  - Gemini
+  - Gemini API
 description:
   Documentation has always been written for humans.
 ---

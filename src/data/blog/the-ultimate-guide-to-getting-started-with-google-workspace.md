@@ -6,8 +6,8 @@ slug: the-ultimate-guide-to-getting-started-with-google-workspace
 featured: false
 draft: false
 tags:
-  - SRE
-  - Devops
+  - Google Workspace
+  - Gemini
 description:
   Running a business or managing a team today is less about *where* you work and more about how smoothly your tools connect. If your team is constantly juggling disconnected email accounts, scattered files, and conflicting calendar invites, you're losing valuable time.
 ---

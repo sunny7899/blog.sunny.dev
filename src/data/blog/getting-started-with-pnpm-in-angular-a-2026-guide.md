@@ -7,6 +7,7 @@ featured: false
 draft: false
 tags:
   - pnpm
+  - Angular
 description:
   If you're still relying entirely on `npm` or `yarn` for your Angular projects, it's time to take a look at `pnpm` (Performant NPM). In 2026, `pnpm` has cemented its position as a top-tier package manager, prized for its speed and its efficient use of disk space.
 
