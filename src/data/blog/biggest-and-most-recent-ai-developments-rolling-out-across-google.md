@@ -46,6 +46,14 @@ Everyone wants agents, MCP, A2A, and cross-cloud workflows, but identity and aut
 * **Gemini Omni:** A powerful new multimodal AI that blends text, photos, audio, and video. It allows users to generate and edit high-quality cinematic videos as easily as having a conversation. You can even create custom AI avatars of yourself to drop into the action.
 a new step in world models that can create anything from any input - starting with video. Nano Banana on steroids
 
+Gemini Omni Conversational Video Editing: Refine and edit videos using natural language, modifying styles, actions, or camera angles while maintaining continuity.
+
+Gemini Omni Multimodal Referencing: Combine inputs like images, text, and video to maintain precise control and consistency over your scene.
+
+Gemini Omni Real-world Knowledge: Draws on Gemini's extensive knowledge of history, biology, and narrative logic to construct compelling videos.
+https://deepmind.google/models/gemini-omni/
+https://ai.google.dev/gemini-api/docs/omni#prompt-guide
+
 ### 3. The Rebuilding of Google Search
 
 Google Search has received its biggest upgrade in 25 years with the introduction of **AI Mode**.
@@ -99,3 +107,11 @@ https://antigravity.google/product/antigravity-cli
 http://firebase.google.com/
 [firebase studio](https://idx.google.com/)
 https://console.firebase.google.com/
+
+## nano banana
+https://deepmind.google/models/gemini-image/flash-lite/ nano banana 2 lite
+https://ai.google.dev/gemini-api/docs/image-generation#prompt-guide
+nano banana  image editing mode - if you need reference check build with nano banana and all,
+
+### veo3
+veo3 video editing mode, 

@@ -143,3 +143,7 @@ https://makersuite.google.com/app/apikey  gemini api key
 https://ai.google.dev/gemini-api/docs/embeddings
 https://ai.google.dev/gemini-api/docs/webhooks
 https://ai.google.dev/gemini-api/docs/rate-limits#usage-tiers
+https://aistudio.google.com/live
+https://aistudio.google.com/generate-speech
+[build apps with this tool ai.studio/build](https://aistudio.google.com/apps)
+https://aistudio.google.com/app/apikey
