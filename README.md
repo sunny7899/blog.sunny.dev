@@ -1,6 +1,7 @@
 count- 42
 pubDatetime next: 23 aug
 
+pnpm run dev
 pnpm run build
 npx wrangler deploy
 npx wrangler versions upload
@@ -16,7 +17,7 @@ https://adsenseapprovalchecker.net/
 doamin shorten or buy
 Top Level Domain Consider using .com, .org, or .net
 Analytics Tools - GA4/GTM add google analytics
-
+https://tagmanager.google.com/?authuser=2#/home#tags
 work on
 HSTS Status
 CSP Protection
