@@ -9,7 +9,7 @@ tags:
   - JavaScript
   - Node.js
 description:
-  JavaScript is single-threaded, meaning it can only execute one piece of code at a time. Yet, modern web applications effortlessly handle fetching data, rendering UI, and running timers simultaneously without freezing. The secret to this non-blocking magic is the **Event Loop**.
+  JavaScript is single-threaded, meaning it can only execute one piece of code at a time. Yet, modern web applications effortlessly handle fetching data, rendering UI, and running timers simultaneously without freezing. The secret to this non-blocking magic is the Event Loop.
 ---
 
 

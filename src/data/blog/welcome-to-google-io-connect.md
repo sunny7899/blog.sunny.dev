@@ -9,7 +9,7 @@ tags:
   - GoogleIOConnect
   - BuildWithGemini
 description:
-  The wait is over! We are thrilled to officially kick off **Google I/O Connect**, bringing the energy, announcements, and cutting-edge innovations of the global Google I/O summit directly to our local tech hub
+  The wait is over! We are thrilled to officially kick off Google I/O Connect, bringing the energy, announcements, and cutting-edge innovations of the global Google I/O summit directly to our local tech hub
 ---
 
 Google I/O Connect is the premier localized, in-person assembly that brings global Google I/O summit updates directly to international tech hubs. It offers developers and engineers hands-on experience with emerging AI, Android, and Cloud technologies.

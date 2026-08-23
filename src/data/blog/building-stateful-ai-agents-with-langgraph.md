@@ -9,7 +9,7 @@ tags:
   - AI agents
   - LangGraph
 description:
-  AI agents have evolved beyond simple prompt-response interactions. Modern applications need agents that can remember context, recover from failures, coordinate multiple tools, and execute complex workflows over time. This is where **stateful AI agents** come into play.
+  AI agents have evolved beyond simple prompt-response interactions. Modern applications need agents that can remember context, recover from failures, coordinate multiple tools, and execute complex workflows over time. This is where stateful AI agents come into play.
 ---
 
 By combining **LangGraph** with **TypeScript**, developers can build production-ready agents that maintain state, make intelligent decisions, and orchestrate sophisticated workflows while benefiting from TypeScript's strong typing and developer experience.
