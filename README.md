@@ -1,8 +1,13 @@
 count- 42
 pubDatetime next: 23 aug
+
 pnpm run build
 npx wrangler deploy
 npx wrangler versions upload
+
+pnpm install
+pnpm install --frozen-lockfile
+pnpm approve-build
 
 pnpm dlx @astrojs/upgrade
 
