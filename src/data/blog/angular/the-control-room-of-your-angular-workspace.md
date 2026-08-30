@@ -162,3 +162,12 @@ While `angular.json` can feel overwhelming, it's highly logical once you underst
 4.  **How to do it** (`builder`, `options`, `configurations`).
 
 Mastering this file allows you to effortlessly add global stylesheets, manage multiple environments, and control exactly how your Angular app gets bundled for the real world.
+
+deprecated imports-
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async'; 
+provideAnimationsAsync()
+
+import { withIncrementalHydration } from '@angular/platform-browser';
+
+not needed in v21+
+  provideZonelessChangeDetection(),
