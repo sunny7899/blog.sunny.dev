@@ -10,8 +10,10 @@ tags:
   - PyPI
 description:
   Publishing your first Python package to the Python Package Index (PyPI) is a major milestone for any developer. It allows anyone in the world to install your code using a simple `pip install your-package` command.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_4swwd84swwd84sww.png
 ---
 
+![pypi](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_4swwd84swwd84sww.png)
 
 While older tutorials might instruct you to use `setup.py`, the modern, standardized approach uses `pyproject.toml`. This guide will walk you through the modern workflow from project creation to publishing.
 

@@ -90,3 +90,6 @@ In Jetpack Compose, UI components are called "Composables". You create them by a
 ### 2. State and Recomposition
 
 Unlike the older XML system where you had to manually find a text box on the screen and update it when data changed, Compose is reactive. If you create a variable that holds a state (like a counter or a user's name) and pass it to a Composable, the UI will automatically redraw itself (a process called "recomposition") whenever that state changes.
+
+system environment variable path copy for quick setup
+C:\Users\username\AppData\Local\Android\Sdk\platform-tools
