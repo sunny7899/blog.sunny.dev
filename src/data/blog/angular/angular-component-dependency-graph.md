@@ -76,7 +76,7 @@ Emerge is a browser-based tool that supports TypeScript and uses a force-directe
 * How to use: It's a Python-based tool (install via pip install emerge-viz), which then generates an interactive web app you can view in Chrome or Firefox. 
 
 ## 4. DPDM
-If you only care about the logic (finding circular dependencies) and don't strictly need a picture, dpdm is a fantastic, lightweight CLI tool specifically for TypeScript. [12] 
+If you only care about the logic (finding circular dependencies) and don't strictly need a picture, dpdm is a fantastic, lightweight CLI tool specifically for TypeScript. 
 
 * Best For: Detecting circular dependencies in CI/CD pipelines without any visual overhead.
 * How to use:

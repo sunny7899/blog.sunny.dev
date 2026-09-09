@@ -86,7 +86,7 @@ Create one here:
 
 ---
 
-# Required Token Scopes
+# Required Token Scopes - Roles
 
 ## Personal Repository Migration
 
@@ -129,6 +129,13 @@ Official SSO Docs:
 
 ---
 
+# Test it first
+curl --version
+health check commands
+curl -s -o /dev/null -w "%{http_code}\n" https://google.com
+curl -I https://google.com
+curl -v https://google.com
+
 # Personal Repository Migration
 
 ## Step 1: Start Migration
@@ -147,7 +154,7 @@ curl -L -X POST \
   -H "Authorization: Bearer YOUR_TOKEN" \
   -H "X-GitHub-Api-Version: 2022-11-28" \
   https://api.github.com/user/migrations \
-  --data-raw "{\"lock_repositories\":false,\"repositories\":[\"sunny7899/FastAPI-CRUD\"]}"
+  --data-raw "{\"lock_repositories\":false,\"repositories\":[\"YOURUSERNAME/REPONAME\"]}"
 ```
 
 ---
@@ -222,14 +229,14 @@ Migration APIs require numeric IDs:
 curl -L \
   -H "Accept: application/vnd.github+json" \
   -H "Authorization: Bearer YOUR_TOKEN" \
-  https://api.github.com/user/migrations/12286999/archive \
-  -o fastapi-crud.tar.gz
+  https://api.github.com/user/migrations/{MIGRATION_ID}/archive \
+  -o {ProjectName}.tar.gz
 ```
 
 Extract archive:
 
 ```bash id="vwevjlwm"
-tar -xvzf fastapi-crud.tar.gz
+tar -xvzf ssr-migration.tar.gz
 ```
 
 ---
@@ -253,8 +260,8 @@ curl -L -X POST \
   -H "Accept: application/vnd.github+json" \
   -H "Authorization: Bearer YOUR_TOKEN" \
   -H "X-GitHub-Api-Version: 2022-11-28" \
-  https://api.github.com/orgs/angulardevelopment/migrations \
-  --data-raw "{\"lock_repositories\":false,\"repositories\":[\"angulardevelopment/ssr\"]}"
+  https://api.github.com/orgs/{ORGNAME}/migrations \
+  --data-raw "{\"lock_repositories\":false,\"repositories\":[\"{ORGNAME}/ssr\"]}"
 ```
 
 ---
@@ -289,7 +296,7 @@ because organization repositories must use:
 curl -L \
   -H "Accept: application/vnd.github+json" \
   -H "Authorization: Bearer YOUR_TOKEN" \
-  https://api.github.com/orgs/angulardevelopment/migrations
+  https://api.github.com/orgs/{ORGNAME}/migrations
 ```
 
 ---
@@ -300,7 +307,7 @@ curl -L \
 curl -L \
   -H "Accept: application/vnd.github+json" \
   -H "Authorization: Bearer YOUR_TOKEN" \
-  https://api.github.com/orgs/angulardevelopment/migrations/123456/archive \
+  https://api.github.com/orgs/{ORGNAME}/migrations/{MIGRATION_ID}/archive \
   -o ssr-migration.tar.gz
 ```
 
@@ -451,6 +458,254 @@ You can automate exports using:
 * shell scripts
 
 ---
+
+```json
+  {
+        "id": ,
+        "node_id": "",
+        "owner": {
+            "login": "codeforwebdevelopment",
+            "id": ,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codeforwebdevelopment",
+            "html_url": "https://github.com/codeforwebdevelopment",
+            "followers_url": "https://api.github.com/users/codeforwebdevelopment/followers",
+            "following_url": "https://api.github.com/users/codeforwebdevelopment/following{/other_user}",
+            "gists_url": "https://api.github.com/users/codeforwebdevelopment/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/codeforwebdevelopment/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/codeforwebdevelopment/subscriptions",
+            "organizations_url": "https://api.github.com/users/codeforwebdevelopment/orgs",
+            "repos_url": "https://api.github.com/users/codeforwebdevelopment/repos",
+            "events_url": "https://api.github.com/users/codeforwebdevelopment/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/codeforwebdevelopment/received_events",
+            "type": "Organization",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "guid": "",
+        "state": "exported",
+        "lock_repositories": false,
+        "exclude_metadata": false,
+        "exclude_git_data": false,
+        "exclude_attachments": false,
+        "exclude_releases": false,
+        "exclude_owner_projects": false,
+        "org_metadata_only": false,
+        "repositories": [
+            {
+                "id": ,
+                "node_id": "",
+                "name": "js30-projects",
+                "full_name": "codeforwebdevelopment/js30-projects",
+                "private": false,
+                "owner": {
+                    "login": "codeforwebdevelopment",
+                    "id": ,
+                    "node_id": "",
+                    "avatar_url": "",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codeforwebdevelopment",
+                    "html_url": "https://github.com/codeforwebdevelopment",
+                    "followers_url": "https://api.github.com/users/codeforwebdevelopment/followers",
+                    "following_url": "https://api.github.com/users/codeforwebdevelopment/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codeforwebdevelopment/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codeforwebdevelopment/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codeforwebdevelopment/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codeforwebdevelopment/orgs",
+                    "repos_url": "https://api.github.com/users/codeforwebdevelopment/repos",
+                    "events_url": "https://api.github.com/users/codeforwebdevelopment/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codeforwebdevelopment/received_events",
+                    "type": "Organization",
+                    "user_view_type": "public",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/codeforwebdevelopment/js30-projects",
+                "description": null,
+                "fork": false,
+                "url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects",
+                "forks_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/forks",
+                "keys_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/teams",
+                "hooks_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/hooks",
+                "issue_events_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/events",
+                "assignees_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/tags",
+                "blobs_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/languages",
+                "stargazers_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/stargazers",
+                "contributors_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/contributors",
+                "subscribers_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/subscribers",
+                "subscription_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/subscription",
+                "commits_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/merges",
+                "archive_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/downloads",
+                "issues_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/labels{/name}",
+                "releases_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/codeforwebdevelopment/js30-projects/deployments",
+                "created_at": "2021-05-13T17:36:09Z",
+                "updated_at": "2025-01-10T14:18:06Z",
+                "pushed_at": "2025-01-10T14:18:01Z",
+                "git_url": "git://github.com/codeforwebdevelopment/js30-projects.git",
+                "ssh_url": "git@github.com:codeforwebdevelopment/js30-projects.git",
+                "clone_url": "https://github.com/codeforwebdevelopment/js30-projects.git",
+                "svn_url": "https://github.com/codeforwebdevelopment/js30-projects",
+                "homepage": "",
+                "size": 46760,
+                "stargazers_count": 1,
+                "watchers_count": 1,
+                "language": "HTML",
+                "has_issues": true,
+                "has_projects": true,
+                "has_downloads": false,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 1,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "has_pull_requests": true,
+                "pull_request_creation_policy": "all",
+                "topics": [
+                    "hacktoberfest"
+                ],
+                "visibility": "public",
+                "forks": 1,
+                "open_issues": 0,
+                "watchers": 1,
+                "default_branch": "master",
+                "permissions": {
+                    "admin": true,
+                    "maintain": true,
+                    "push": true,
+                    "triage": true,
+                    "pull": true
+                }
+            }
+        ],
+        "url": "",
+        "created_at": "2026-05-15T23:30:31.000+05:30",
+        "updated_at": "2026-05-15T23:30:49.000+05:30"
+    }
+```
+
+Downloading any GitHub repository with these steps
+1. Create a Personal Access Token (PAT)
+2. Initiate the migration
+3. Check the migration status
+4. Download the migration checks
+
+### What is the Purpose of this Archive?
+
+A standard `git clone` only copies Git commits, branches, and code.
+
+The GitHub Migration Archive (`.tar.gz`) is designed for complete repository migration and disaster recovery. It packages:
+
+* **The complete Git repository:** Every branch, tag, commit, and file blob.
+* **GitHub metadata:** Issues, pull requests, comments, reviews, labels, milestones, and release attachments formatted as JSON.
+
+---
+
+### Does it Contain the Actual Code?
+
+**Yes.** Inside the archive, GitHub stores a bare Git directory (usually under `repositories/<org>/<repo>.git/` or `repositories/<repo>/`). Because all the Git database objects (`objects/`, `refs/`, `HEAD`) are included, the full source code across all historical revisions is present.
+
+---
+
+### How to Check Commits and Lines of Code
+
+Extract the archive, navigate to the bare Git folder, and use Git tools to calculate metrics:
+
+#### 1. Extract the Archive
+
+```bash
+mkdir migration_data
+tar -zxvf migration_archive.tar.gz -C migration_data
+
+```
+
+Find the `.git` directory inside:
+
+```bash
+find migration_data -type d -name "*.git"
+
+```
+
+*(Suppose the directory found is `migration_data/repositories/codeforwebdevelopment/ml-nlp-js.git`)*
+
+---
+
+#### 2. Count the Commits
+
+You can query the bare repository directly using the `--git-dir` flag without even checking out the working tree:
+
+* **Count commits on the default branch (e.g., `main` or `master`):**
+```bash
+git --git-dir="migration_data/repositories/codeforwebdevelopment/ml-nlp-js.git" rev-list --count HEAD
+
+```
+
+
+* **Count all commits across all branches and tags:**
+```bash
+git --git-dir="migration_data/repositories/codeforwebdevelopment/ml-nlp-js.git" rev-list --count --all
+
+```
+
+
+
+---
+
+#### 3. Restore the Working Tree and Count Lines of Code
+
+To count lines of code, turn the bare Git directory into a working directory with checked-out source files:
+
+1. **Clone it locally to get the files:**
+```bash
+git clone "migration_data/repositories/codeforwebdevelopment/ml-nlp-js.git" ml-nlp-js-code
+cd ml-nlp-js-code
+
+```
+
+
+2. **Count lines of code:**
+* **Using `cloc` (Recommended — ignores generated files/minified code):**
+```bash
+# Install if needed: brew install cloc (macOS) or sudo apt install cloc (Linux)
+cloc .
+
+```
+
+
+* **Using built-in shell commands:**
+```bash
+git ls-files | xargs wc -l
+
+```
 
 # Final Thoughts
 

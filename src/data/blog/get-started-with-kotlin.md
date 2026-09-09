@@ -12,8 +12,10 @@ tags:
 description:
   If you want to build an Android app today, Kotlin and Jetpack Compose are the tools you need.
   While older Android apps were built using a mix of Java/Kotlin and XML files for the layout, modern Android development is entirely Kotlin-first. Jetpack Compose is Android’s modern UI toolkit, allowing you to build your app's interface using only Kotlin code—saving you time, reducing bugs, and providing instant previews as you type.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_rotqhprotqhprotq.png)
 ---
 
+![kotlin-jetpack-compose](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_rotqhprotqhprotq.png)
 
 Here is a step-by-step guide to building and running your very first "Hello World" app.
 
