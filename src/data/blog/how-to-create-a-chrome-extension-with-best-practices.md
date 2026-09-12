@@ -10,7 +10,10 @@ tags:
   - MV3
 description:
   Building a Chrome Extension is essentially building a small web application using HTML, CSS, and JavaScript, but with access to Chrome's powerful browser APIs. Since 2024, Google has mandated the use of Manifest V3 (MV3), which focuses heavily on enhanced security, privacy, and performance.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Chrome%20extension.png
 ---
+
+![Chrome extension](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Chrome%20extension.png)
 
 Here is a comprehensive guide to understanding the architecture, building your first extension, and following industry best practices.
 

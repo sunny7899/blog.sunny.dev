@@ -261,7 +261,7 @@ curl -L -X POST \
   -H "Authorization: Bearer YOUR_TOKEN" \
   -H "X-GitHub-Api-Version: 2022-11-28" \
   https://api.github.com/orgs/{ORGNAME}/migrations \
-  --data-raw "{\"lock_repositories\":false,\"repositories\":[\"{ORGNAME}/ssr\"]}"
+  --data-raw "{\"lock_repositories\":false,\"repositories\":["ssr"]}"
 ```
 
 ---
@@ -729,3 +729,56 @@ Once configured correctly, the APIs provide a reliable way to automate repositor
 * [GitHub SSO Authorization Docs](https://docs.github.com/en/authentication/authenticating-with-saml-single-sign-on)
 
 
+```
+https://github.com/ username/repository_name id migrations 
+  
+  curl -L -X POST \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer token" \
+  -H "Content-Type: application/json" \
+  -H "X-GitHub-Api-Version: 2026-03-10" \
+  https://api.github.com/orgs/angulardevelopment/migrations \
+  -d '{"lock_repositories": false, "repositories": ["agile-board"]}'
+
+    curl -L \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer token" \
+  https://api.github.com/orgs/angulardevelopment/migrations/id
+  
+curl -L \
+  -H "Authorization: Bearer token" \
+  -H "Accept: application/vnd.github+json" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  https://api.github.com/orgs/angulardevelopment/migrations/id/archive \
+  -o / agile-board.tar.gz
+
+  curl -L -X POST \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer token" \
+  -H "Content-Type: application/json" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  https://api.github.com/user/migrations \
+  -d '{"lock_repositories":false,"repositories":["sunny7899/book-store"]}'
+  
+  curl -L \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer token" \
+  https://api.github.com/user/migrations/id
+  
+  curl -L \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer token" \
+  https://api.github.com/user/migrations/id/archive \
+  -o book-store.tar.gz
+  
+  curl --request POST --header "PRIVATE-TOKEN: token"
+"https://gitlab.com/api/v4/projects/username%2Frepository_name/export"
+
+curl --request GET --header "PRIVATE-TOKEN: token"
+"https://gitlab.com/api/v4/projects/username%2Frepository_name/export"
+
+curl --request GET --header "PRIVATE-TOKEN: token" -o
+airtable.tar.gz
+"https://gitlab.com/api/v4/projects/username%2Frepository_name/export/download"
+
+```
