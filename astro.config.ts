@@ -34,6 +34,7 @@ export default defineConfig({
         transformerNotationHighlight(),
         transformerNotationWordHighlight(),
         transformerNotationDiff({ matchAlgorithm: "v3" }),
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
       ] as any[],
     },
   },

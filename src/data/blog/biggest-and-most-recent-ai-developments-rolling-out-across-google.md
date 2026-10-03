@@ -85,8 +85,9 @@ Embed Gemini in your app to complete all sorts of tasks - analyze content, make 
 ## Pomelli by Google Labs for content
 https://labs.google.com/u/0/pomelli/campaigns
 
-## Flow, AI filmmaking tool
+## google Flow, AI filmmaking tool
 https://labs.google/fx/tools/flow
+https://flow.google.com/
 
 ## gems
 https://gemini.google/overview/gems/

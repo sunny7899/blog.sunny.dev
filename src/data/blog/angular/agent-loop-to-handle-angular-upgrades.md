@@ -10,7 +10,10 @@ tags:
   - Angular
 description:
   I’ve experimented with an unattended agent loop for Angular upgrades. suppose to run every 3/6 month. It runs ng update, uses AI for up to 3 remediation cycles, runs the final tests and opens a PR.   It worked quite well for minor upgrades package updates, migration cleanup, etc. But for 2–3 version jumps, the first PR was pretty rough some package mismatches it couldn’t resolve, and a bunch of warnings pushed into the PR description instead of actually fixing the issues. For verification I checked the description it updated action items for dev to pick up if any.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_en8zjgen8zjgen8z.png)
+
 ---
+![agent-loop-to-handle-angular-upgrades](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_en8zjgen8zjgen8z.png)
 
 To build an unattended upgrade loop, structure it as a scheduled runner (GitHub Actions, GitLab CI, or a containerized cron worker) that pairs deterministic CLI commands with an LLM remediation cycle.
 

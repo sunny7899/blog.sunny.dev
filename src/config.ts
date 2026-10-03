@@ -21,3 +21,19 @@ export const SITE = {
   lang: "en", // html lang code. Set this empty and default will be "en"
   timezone: "Asia/Kolkata", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 } as const;
+
+export const GISCUS = {
+  enabled: true,
+  repo: "sunny7899/blog.sunny.dev",
+  repoId: "R_kgDOSUiG2Q", // Obtain from https://giscus.app
+  category: "General",
+  categoryId: "DIC_kwDOSUiG2c4DG7iY", // Obtain from https://giscus.app
+  mapping: "pathname",
+  strict: "0",
+  reactionsEnabled: "1",
+  emitMetadata: "0",
+  inputPosition: "bottom",
+  lang: "en",
+  loading: "lazy",
+} as const;
+

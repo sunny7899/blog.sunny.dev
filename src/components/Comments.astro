@@ -1,0 +1,142 @@
+---
+import { GISCUS } from "@/config";
+
+export interface Props {
+  hideComments?: boolean;
+}
+
+const { hideComments = false } = Astro.props;
+const showComments = GISCUS.enabled && !hideComments;
+const isConfigured = Boolean(GISCUS.repo && GISCUS.repoId && GISCUS.categoryId);
+---
+
+{
+  showComments && (
+    <section class="mt-8 pt-4" id="comments-section">
+      <hr class="my-6 border-dashed" />
+      <h2 class="mb-6 text-xl font-bold tracking-tight text-accent">
+        Comments
+      </h2>
+
+      {isConfigured ? (
+        <div class="giscus-container min-h-[160px]">
+          <div class="giscus" />
+        </div>
+      ) : (
+        <div class="rounded-lg border border-dashed border-accent/40 bg-accent/5 p-5 text-sm text-foreground/85">
+          <p class="font-semibold text-accent">
+            💬 Comments powered by{" "}
+            <a
+              href="https://giscus.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline underline-offset-4 hover:opacity-80"
+            >
+              Giscus
+            </a>
+          </p>
+          <p class="mt-2 text-xs leading-relaxed text-foreground/75">
+            To enable reader comments via GitHub Discussions, visit{" "}
+            <a
+              href="https://giscus.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="font-medium text-accent underline underline-offset-4"
+            >
+              giscus.app
+            </a>
+            , select your repository (<code class="rounded bg-muted px-1.5 py-0.5">{GISCUS.repo}</code>), and copy the generated <code class="rounded bg-muted px-1.5 py-0.5">repoId</code> and <code class="rounded bg-muted px-1.5 py-0.5">categoryId</code> into <code class="rounded bg-muted px-1.5 py-0.5">src/config.ts</code>.
+          </p>
+        </div>
+      )}
+    </section>
+  )
+}
+
+{
+  showComments && isConfigured && (
+    <script
+      is:inline
+      data-astro-rerun
+      define:vars={{
+        repo: GISCUS.repo,
+        repoId: GISCUS.repoId,
+        category: GISCUS.category,
+        categoryId: GISCUS.categoryId,
+        mapping: GISCUS.mapping,
+        strict: GISCUS.strict,
+        reactionsEnabled: GISCUS.reactionsEnabled,
+        emitMetadata: GISCUS.emitMetadata,
+        inputPosition: GISCUS.inputPosition,
+        lang: GISCUS.lang,
+        loading: GISCUS.loading,
+      }}
+    >
+      (() => {
+        function getGiscusTheme() {
+          const currentTheme =
+            document.firstElementChild?.getAttribute("data-theme") ||
+            (window.matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light");
+          return currentTheme === "dark" ? "transparent_dark" : "light";
+        }
+
+        function loadGiscusWidget() {
+          const container = document.querySelector(".giscus");
+          if (!container) return;
+
+          container.innerHTML = "";
+
+          const script = document.createElement("script");
+          script.src = "https://giscus.app/client.js";
+          script.setAttribute("data-repo", repo);
+          script.setAttribute("data-repo-id", repoId);
+          script.setAttribute("data-category", category);
+          script.setAttribute("data-category-id", categoryId);
+          script.setAttribute("data-mapping", mapping);
+          script.setAttribute("data-strict", strict);
+          script.setAttribute("data-reactions-enabled", reactionsEnabled);
+          script.setAttribute("data-emit-metadata", emitMetadata);
+          script.setAttribute("data-input-position", inputPosition);
+          script.setAttribute("data-theme", getGiscusTheme());
+          script.setAttribute("data-lang", lang);
+          script.setAttribute("data-loading", loading);
+          script.crossOrigin = "anonymous";
+          script.async = true;
+
+          container.appendChild(script);
+        }
+
+        function syncGiscusTheme() {
+          const iframe = document.querySelector("iframe.giscus-frame");
+          if (!iframe || !iframe.contentWindow) return;
+          iframe.contentWindow.postMessage(
+            { giscus: { setConfig: { theme: getGiscusTheme() } } },
+            "https://giscus.app"
+          );
+        }
+
+        loadGiscusWidget();
+
+        const observer = new MutationObserver(mutations => {
+          for (const mutation of mutations) {
+            if (
+              mutation.type === "attributes" &&
+              mutation.attributeName === "data-theme"
+            ) {
+              syncGiscusTheme();
+            }
+          }
+        });
+
+        if (document.documentElement) {
+          observer.observe(document.documentElement, {
+            attributes: true,
+            attributeFilter: ["data-theme"],
+          });
+        }
+      })();
+    </script>
+  )
+}
