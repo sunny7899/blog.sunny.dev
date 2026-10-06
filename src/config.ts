@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://sunnyblog.apexmansunny.workers.dev/", // replace this with your deployed domain
+  website: "https://buildwithsunny.com/", // replace this with your deployed domain
   author: "Sunny",
   profile: "https://code-for-next-generation.vercel.app/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
