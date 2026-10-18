@@ -14,7 +14,9 @@ tags:
   - MCP
 description:
    Deploying coding agents productively requires shifting from conversational, chat-based code generation to harnessed agentic systems.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_jt44qxjt44qxjt44.png)
 ---
+![Context and Loop Engineering](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_jt44qxjt44qxjt44.png)
 
  An unconstrained LLM writing code quickly degrades into hallucinated APIs, broken imports, and architectural drift. To achieve high autonomy with production-grade reliability, engineering teams wrap agents in deterministic feedback loops, strictly bounded context architectures, and formal specification contracts.
 

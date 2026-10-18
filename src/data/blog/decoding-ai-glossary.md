@@ -332,7 +332,7 @@ LangGraph is an open-source, low-level orchestration framework built by the Lang
 
 Google ADK (Agent Development Kit) is powerful, but it is built primarily for structured, multi-agent production workflows—often tied to enterprise environments or Google Cloud 
 
-Genkit https://genkit.dev/ is an open-source framework by Google for building full-stack, AI-powered, and agentic applications 
+Genkit https://genkit.dev/ is an open-source framework by Google for building full-stack, AI-powered, and agentic applications. used in production by Google's Firebase. Deploy your Genkit backend or agent to Google Cloud Run, Firebase App Hosting, or any standard container/Node.js/Go environment. Unified Model API: Switch seamlessly between model providers—including Google Gemini, Anthropic Claude, OpenAI, xAI Grok, DeepSeek, AWS Bedrock, Azure AI Foundry, and local models via Ollama—without rewriting your core application logic
 
 Android Studio Quail is a major release cycle of Google's official IDE for Android development, bringing heavily optimized tools built for the agentic AI era 
 
@@ -631,17 +631,40 @@ MCP hosts
 MCP client
 MCP server
 
+## Augmented analytics
+Augmented analytics uses artificial intelligence (AI), machine learning (ML), and natural language processing (NLP) to automate data preparation, insight discovery, and visualization inside business intelligence platforms
+Google Cloud provides augmented analytics Table-Valued Functions (TVFs) and AI-powered functions inside BigQuery to automate data discovery, diagnostics, and statistical modeling directly in the data warehouse
 
-1. AI Security and Governance
-2. Running Offline AI on Mobile Devices
-3. MCP at Scale: Going Serverless
-4. Architecting Temporal Graph Memory Harness for Evolving State in AI Agents
-5. Stop Prompting, Start Engineering: The Architecture Behind Production AI Agents
-6. 1 Million tokens are not an agent‚Äôs memory
-7. Building Intelligent Copilots with Advanced AI Builder Capabilities in Copilot Studio
-8. Voice Agents: Ready for Production or Just a Great Demo?
+## BigQuery
+Google BigQuery is a fully managed, serverless enterprise data warehouse and AI platform by Google Cloud that lets you store and query petabytes of data using standard SQL
+
+## context window
+A 1-million-token context window is a working memory (like RAM) for a single session, not a persistent memory that lasts across sessions or reliably retains middle details
+
+## Temperature in Google's generative AI models (such as Gemini) 
+It is a hyperparameter that controls the randomness and creativity of the model's token selection during text generation. 
+## How Temperature Works
+
+* Range: Gemini models typically support temperature values between 0.0 and 2.0.
+* Default Value: Most models have a default starting temperature of 1.0 (though Google often recommends keeping Gemini 3 models at 1.0 for optimal reasoning). 
+
+------------------------------
+## Low vs. High Temperature
+
+| Temperature | Behavior | Best Used For |
+|---|---|---|
+| 0.0 – 0.3 (Low) | Deterministic and focused: The model picks the highest-probability words almost every time, making outputs predictable, stable, and repetitive. | Factual retrieval, code generation, data extraction, and summaries. |
+| 0.4 – 0.7 (Medium) | Balanced: A mix of reliable structure and light variation. | General conversation, drafting, and guided brainstorming. |
+| 0.8 – 2.0 (High) | Creative and diverse: The model explores less likely words, leading to imaginative, varied, and occasionally unpredictable results. | Creative writing, storytelling, marketing copy, and open-ended ideation. |
+
+------------------------------
+## Key Tips for Adjusting Temperature
+
+* If the response is too generic or repetitive: Try increasing the temperature slightly.
+* If the model hallucinates or goes off-track in code/logic: Lower the temperature (e.g., to 0.2 or 0.3) to force stricter adherence to your prompt.
+* Where to change it: You can adjust the temperature slider directly inside Google AI Studio or pass it inside your API generation configuration code (via generationConfig.temperature). 
+
 9. AI (Claude) is the sidekick, YOU are the protagonist
-10. How Ai employees are redefining the way companies work ?
 11. Can AI Fix Your Relationship? Designing an Agentic AI System from First Principles
 12. From ‚ÄúIt Works‚Äù to ‚ÄúIt Survives‚Äù: Harness Engineering & Evals for Production AI
 13. Stop Vibe Coding. Start Vibe Engineering.
@@ -661,8 +684,6 @@ MCP server
 27. From prototype to Production: Engineering Trustworthy AI Agents Across Frameworks
 28. Beyond Chatbots: Building Safe AI Agents for Real Business Applications
 29. I Built a Browser That Runs Its Own LLM
-30. 30 min
-31. Any but llm
 32. We Can't Improve What we Can't Measure: Evals, Harnesses, and Silent  Failure in Production Agents
 33. Agents for healthcare regulatory documentation
 34. Agents Need to Forget, Not Remember

@@ -35,6 +35,8 @@ Fetch information from the URL `https://tanaikech.github.io/about/`, organize an
 Prompt 4: Autonomous Gmail Event Triggering
 When a new email is received from `tanaike@hotmail.com`, send the data to "Sheet1" in the Google Spreadsheet named `Sample for Gemini Spark`.
 
+Prompt 5:Triage my inbox every weekday at 9am. For urgent emails, draft replies using my “Ghostwriter” skill. 
+
 ### 2. Next-Generation Models: Gemini 3.5 & Omni
 
 The models powering Google's AI have received massive upgrades, focusing on action-taking and media creation.
@@ -116,3 +118,6 @@ nano banana  image editing mode - if you need reference check build with nano b
 
 ### veo3
 veo3 video editing mode, 
+
+### Gemini 4 Argon 
+It is amongst the leading models in intelligence and reasonably priced when comparing to other models of similar price. The model supports text and image input, outputs text, and has a 1M tokens context window.

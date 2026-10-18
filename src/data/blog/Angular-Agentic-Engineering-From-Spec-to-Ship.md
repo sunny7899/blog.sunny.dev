@@ -11,11 +11,13 @@ tags:
   - Agentic
 description:
   Building production-grade Angular applications with AI coding agents requires moving past "chatting about components" to a deterministic, spec-driven engineering pipeline.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_l3szd5l3szd5l3sz.png
 ---
  Angular’s opinionated architecture—strict typing, DI trees, hierarchical injector scoping, standalone APIs, and signal-based reactivity—makes it uniquely well-suited for autonomous agents *if* you bind the agent within structural guardrails.
 
 ---
 
+![Angular Agentic Engineering](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_l3szd5l3szd5l3sz.png)
 ## 1. Ground Rules: The Modern Angular Context Baseline
 
 LLMs frequently default to legacy Angular patterns (modules, `ngOnInit` subscriptions, zone-based change detection) unless explicitly bounded in your `.agent/rules/angular.md` or `.cursorrules`.
