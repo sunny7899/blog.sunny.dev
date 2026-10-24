@@ -47,3 +47,52 @@ In reality, timers dictate the *minimum* delay. After 1,000ms, the Web API pushe
 Today, `async` and `await` are the standard patterns for handling asynchronous code, providing a cleaner alternative to nested Promise chains (the infamous "callback hell").
 
 Under the hood, `async/await` is syntactic sugar over Promises. When the engine encounters an `await` keyword, it suspends the execution of that specific function and yields control back to the main thread. The remainder of the function is then scheduled as a **Microtask** to be executed once the awaited Promise resolves.
+---
+
+## Practical Example: The Event Loop in Action
+
+To solidify how the call stack, microtasks, and macrotasks interact, trace what gets printed in this classic code snippet:
+
+```javascript title="event-loop-demo.js"
+console.log("1. Synchronous script start");
+
+setTimeout(() => {
+  console.log("2. setTimeout macrotask callback");
+}, 0);
+
+Promise.resolve().then(() => {
+  console.log("3. Promise microtask callback 1");
+}).then(() => {
+  console.log("4. Promise microtask callback 2");
+});
+
+queueMicrotask(() => {
+  console.log("5. queueMicrotask execution");
+});
+
+console.log("6. Synchronous script end");
+```
+
+### Execution Output:
+```text
+1. Synchronous script start
+6. Synchronous script end
+3. Promise microtask callback 1
+5. queueMicrotask execution
+4. Promise microtask callback 2
+2. setTimeout macrotask callback
+```
+
+### Step-by-Step Breakdown:
+1. **Synchronous code runs first:** `console.log("1...")` and `console.log("6...")` execute immediately in the Call Stack.
+2. **Macrotask enqueued:** `setTimeout(..., 0)` registers its callback into the Macrotask Queue (Task Queue).
+3. **Microtasks enqueued:** `Promise.then` and `queueMicrotask` register their callbacks into the Microtask Queue.
+4. **Microtask Queue Drained:** Before the Event Loop considers picking up the `setTimeout` callback, it **completely empties** the Microtask Queue in FIFO order, resolving chained promises as they settle.
+5. **Macrotask Picked Up:** Only after all microtasks have finished does the Event Loop move to the next macrotask: executing the `setTimeout` callback.
+
+---
+
+## Key Takeaways for Frontend Developers
+* Keep microtasks lean; heavy recursive microtasks block browser rendering and freeze animations.
+* Do not rely on `setTimeout(..., 0)` for instant synchronization—it will always yield to synchronous logic and microtasks.
+* Understanding queue priority makes debugging async bugs and complex state management in frameworks like Angular, React, and Vue significantly easier.

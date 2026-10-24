@@ -84,6 +84,22 @@ It should read like an architectural diagram for AI. It needs to list the agents
 **Q: A team has a brilliant idea but the Google Cloud deployment failed at the last minute. How do we score them?**
 Evaluate the local build based on Technical Depth and Creativity, but deduct points from the "Completeness" category. A working local prototype demonstrating complex agentic behavior is always better than a broken cloud deployment.
 
+---
+
+## Operational Logistics for Hackathon Organizers
+
+For event leads and workshop managers, running a smooth AI hackathon requires tight operational flow:
+
+### 1. Cohort & Session Management
+* **Session Structure:** Keep sprint sessions compact (e.g., 40 minutes of hands-on coding followed by a 10-minute lightning evaluation).
+* **Capacity & Attendance:** Stagger cohorts (20–25 participants per track) to ensure judges and mentors can give dedicated feedback without creating bottlenecks.
+
+### 2. Fair Evaluation & Verification
+* **Mandatory AI Verification:** Confirm that live API calls are being executed rather than static mocked responses.
+* **Rapid Pitching:** Cap project evaluations at 2–3 minutes per station to keep judges agile and cover all teams evenly.
+* **Environment Provisioning:** Ensure participants have pre-validated cloud credentials and required SDK access prior to the kickoff countdown.
+
+
 Developer Journey and Operational Flow
 Registration and Capacity: The area operates on a first-come, first-served basis with no pre-registration. Each cohort holds a maximum of 25 participants, and attendance is logged via QR code scanning upon entry.
 The Coding Session: Each session lasts 50 minutes total, consisting of a 40-minute coding challenge and a 10-minute evaluation period.

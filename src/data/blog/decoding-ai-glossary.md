@@ -664,9 +664,7 @@ It is a hyperparameter that controls the randomness and creativity of the model'
 * If the model hallucinates or goes off-track in code/logic: Lower the temperature (e.g., to 0.2 or 0.3) to force stricter adherence to your prompt.
 * Where to change it: You can adjust the temperature slider directly inside Google AI Studio or pass it inside your API generation configuration code (via generationConfig.temperature). 
 
-9. AI (Claude) is the sidekick, YOU are the protagonist
 11. Can AI Fix Your Relationship? Designing an Agentic AI System from First Principles
-12. From ‚ÄúIt Works‚Äù to ‚ÄúIt Survives‚Äù: Harness Engineering & Evals for Production AI
 13. Stop Vibe Coding. Start Vibe Engineering.
 14. How to create Voice Google ADK agents via agents cli
 15. From Commit to Production: Building AI-Ready CI/CD Pipelines with Harness

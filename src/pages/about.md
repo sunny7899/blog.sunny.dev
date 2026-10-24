@@ -4,7 +4,7 @@ title: "About"
 ---
 
 Hi, I’m Sunny 👋
-![Astro Paper](public/gde.gif)
+![Sunny Gupta - Developer](/gde.gif)
 I’m a developer who enjoys building clean, practical, and scalable digital products. My work mostly revolves around modern web technologies like Angular, React, and FastAPI, with a strong focus on creating tools that solve real-world problems.
 
 Over time, I’ve worked on projects ranging from secure authentication systems and AI-powered tools to content platforms and productivity apps. I’m particularly interested in how thoughtful design and intelligent systems can come together to improve everyday workflows—whether that’s helping creators manage content, simplifying complex processes, or building scalable enterprise solutions.

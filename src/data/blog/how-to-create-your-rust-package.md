@@ -6,9 +6,9 @@ slug: how-to-create-your-rust-package
 featured: false
 draft: false
 tags:
-  - AI agents
-  - LangGraph
-  - TypeScript
+  - Rust
+  - Cargo
+  - WebAssembly
 description:
   In the Rust ecosystem, packages are called crates, and they are managed by Cargo—Rust’s official build system and package manager. Whether you are building a library for others to use or an executable binary, Cargo handles the project creation, building, testing, and publishing processes seamlessly.
 ---

@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://buildwithsunny.com/", // replace this with your deployed domain
   author: "Sunny",
   profile: "https://code-for-next-generation.vercel.app/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "Practical engineering guides, deep dives into Angular, TypeScript, AI agents, and modern cloud architectures by Sunny.",
   title: "SunnyWriteUps",
   ogImage: "ang.jpg",
   lightAndDarkMode: true,
