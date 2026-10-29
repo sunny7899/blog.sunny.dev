@@ -1,5 +1,3 @@
-count- 49
-pubDatetime next: 18 oct
 
 pnpm run dev
 pnpm run build

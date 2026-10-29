@@ -10,7 +10,10 @@ tags:
   - Angular
 description:
   If you've ever looked at the root directory of an Angular workspace, the `package.json` file is impossible to miss. It serves as the master manifest, dictating everything from project identity and npm scripts to the precise ecosystem of libraries powering the application.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_evyebvevyebvevye.png
+ 
 ---
+![Angular Architecture](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_evyebvevyebvevye.png)
 
 
 ## Core Key-Value Pairs

@@ -6,11 +6,15 @@ slug: demystifying-your-frontend-build-understanding-main-polyfills-and-chunks
 featured: false
 draft: false
 tags:
-  - TypeScript
+  - Frontend
   - Angular
 description:
   If you've ever wondered what these files actually do, or panicked because your `main.js` is looking dangerously large, you aren't alone. Understanding your build output is the first step to optimizing your application's load time and performance.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_czxhszczxhszczxh.png
+ 
 ---
+![Demystifying Your Frontend Build](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_czxhszczxhszczxh.png)
+
 
 You’ve just run your production build command (`npm run build`). The terminal flashes green, and your `dist` or `build` folder is magically populated. But when you look inside, you're greeted by a wall of cryptic filenames: `main.a3b4c.js`, `polyfills.8x9y.js`, `734.chunk.js`.  
 
@@ -73,6 +77,8 @@ Split your code using dynamic imports (`import()`). If a user never visits the "
 Sometimes the problem isn't your code, but the third-party libraries you've installed. 
 *   Use a site like **Bundlephobia** to check the size of an npm package before you install it.
 *   Look for modern alternatives to old, heavy libraries (e.g., replacing `moment.js` with `date-fns` or `dayjs`).
+
+![Demystifying Your Frontend Build](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_czxhszczxhszczxh%20(1).png)
 
 ### Summary
 Understanding your build files changes you from a passive consumer of a framework into an active architect. By analyzing your bundles, enforcing smart imports, and utilizing lazy loading, you can ensure your app stays lightning-fast, no matter how complex it gets.

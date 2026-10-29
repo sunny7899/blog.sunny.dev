@@ -6,11 +6,14 @@ slug: angular-component-dependency-graph
 featured: false
 draft: false
 tags:
-  - TypeScript
+  - dependency graph
   - Angular
 description:
   It is a visual map that shows how different components, modules, and services in your application are interconnected. Understanding this graph is essential for managing complex codebases, identifying performance bottlenecks, and preventing circular dependencies.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_da53r0da53r0da53%20(1).png
+ 
 ---
+![component dependency graph](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_da53r0da53r0da53%20(1).png)
 
 ### Why You Need a Dependency Graph
 * **Visual Architecture:** It provides a birds-eye view of your app, making it easier to understand how data flows from "smart" (container) components to "presentational" (UI) components.

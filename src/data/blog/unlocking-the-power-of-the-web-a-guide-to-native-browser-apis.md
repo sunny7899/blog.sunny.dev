@@ -10,7 +10,10 @@ tags:
   - Browser APIs
 description:
   Imagine opening your favorite streaming platform during a major sporting event and finding it unavailable Or attempting an online payment only to encounter a server error Or searching the web and receiving no results.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_1oe8x31oe8x31oe8.png
+ 
 ---
+![Native Browser](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_1oe8x31oe8x31oe8.png)
 
 For a long time, building feature-rich web applications meant relying heavily on a massive ecosystem of third-party libraries and frameworks. Need to handle dates? Pull in Moment.js. Need to manage state? Grab Redux. Need to observe elements scrolling into view? Find an intersection observer polyfill.
 

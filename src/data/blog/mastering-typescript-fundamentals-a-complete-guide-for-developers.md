@@ -9,7 +9,10 @@ tags:
   - TypeScript
 description:
   TypeScript has become one of the most popular technologies for building scalable frontend and backend applications. Whether you are working with Angular, React, Node.js, or enterprise-scale systems, TypeScript provides powerful tooling and strong type safety that helps developers write more reliable code.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_pcuse1pcuse1pcus.png
+ 
 ---
+![TypeScript Fundamentals](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_pcuse1pcuse1pcus.png)
 
 In this blog, we’ll explore some of the most important TypeScript concepts every developer should understand, including:
 

@@ -11,7 +11,10 @@ tags:
   - Angular
 description:
   Markdown has become the standard format for writing documentation, blog posts, release notes, knowledge bases, and AI-generated content. Instead of storing large HTML strings, developers can write content in a clean and readable Markdown format and render it dynamically in Angular applications.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_7medae7medae7med.png
+ 
 ---
+![ngx-markdown ](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_7medae7medae7med.png)
 
 In this article, we'll explore how to use **ngx-markdown** and **Marked** together in Angular, understand their benefits, and learn how to customize Markdown rendering.
 

@@ -12,7 +12,10 @@ tags:
 description:
   The web development world has firmly embraced Microfrontends (MFE). Splitting a monolithic application into smaller, independently deployable modules using tools like Webpack Module Federation (or Native Federation) has solved massive scaling issues for enterprise teams.
   But a fascinating question arises when you take web tech to mobile Can you use Microfrontends inside a mobile Angular + Ionic application? And more importantly, will Apple and Google allow it?
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_xse3cjxse3cjxse3.png
+ 
 ---
+![Microfrontends](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_xse3cjxse3cjxse3.png)
 
 
 If you want to take it a step further—combining MFEs with Over-The-Air (OTA) updates like **Capgo (CapacitorUpdater)** and delegating federated component downloads to authenticated servers—you are looking at a highly advanced, incredibly powerful mobile architecture.

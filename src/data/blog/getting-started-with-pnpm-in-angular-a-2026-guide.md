@@ -11,7 +11,10 @@ tags:
 description:
   If you're still relying entirely on `npm` or `yarn` for your Angular projects, it's time to take a look at `pnpm` (Performant NPM). In 2026, `pnpm` has cemented its position as a top-tier package manager, prized for its speed and its efficient use of disk space.
 
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_dkej1fdkej1fdkej.png
+ 
 ---
+![Getting Started with pnpm](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_dkej1fdkej1fdkej.png)
 
 Instead of creating a massive, duplicated `node_modules` folder for every single project, `pnpm` uses a global store on your machine. When you install dependencies, it creates hard links to the global store and symlinks within your project. This means if you have ten Angular projects using the same version of `@angular/core`, that package is only saved on your disk once.
 

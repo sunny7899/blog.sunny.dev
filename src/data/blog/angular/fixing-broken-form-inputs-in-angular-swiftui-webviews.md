@@ -9,9 +9,13 @@ tags:
   - Swiftui
   - Angular
   - iOS
+  - WebViews
 description:
   Hybrid mobile development is supposed to be a dream. You write your feature once in a robust framework like Angular, wrap it up inside a native SwiftUI iOS app using a `WKWebView`, and boom—you have a mobile app.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_v5dzshv5dzshv5dz.png
+ 
 ---
+![SwiftUI WebViews](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_v5dzshv5dzshv5dz.png)
 
 But then reality hits. You launch your app on an iOS device, go to type in a text or number field, and... *nothing*. The input box is frozen, it refuses to focus, or the keyboard completely ghosts you.
 
@@ -173,6 +177,8 @@ Try wrapping your input in a standard div without any click directives to test i
    <input type="text" placeholder="Test me">
 </div>
 ```
+
+![SwiftUI WebViews](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_v5dzshv5dzshv5dz%20(1).png)
 
 Other fixes you can try it out!
 

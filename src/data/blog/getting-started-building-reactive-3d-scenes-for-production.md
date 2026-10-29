@@ -12,7 +12,10 @@ tags:
   - React Three Fiber (R3F)
 description:
   Bringing 3D to the web used to mean writing thousands of lines of imperative WebGL or raw Three.js code, manually managing the rendering loop, and struggling to connect the 3D world with the rest of your application's UI.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_dx36kdx36kdx36kd.png
+ 
 ---
+![Building Reactive](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_dx36kdx36kdx36kd.png)
 
 
 

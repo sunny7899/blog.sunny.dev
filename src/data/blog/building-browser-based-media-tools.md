@@ -10,7 +10,10 @@ tags:
   - Canvas
 description:
   The days of needing heavy, native desktop applications to resize a photo, extract text from a document, or trim a quick video are fading fast. Thanks to modern web APIs, the browser has evolved into a powerhouse capable of executing complex media processing entirely on the client side.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_s0xx03s0xx03s0xx.png
+ 
 ---
+![Building Browser-Based](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_s0xx03s0xx03s0xx.png)
 
 If you are building web applications—perhaps working heavily with component-based frameworks like Angular—integrating these tools directly into your frontend can save server costs, eliminate upload wait times, and vastly improve data privacy.
 

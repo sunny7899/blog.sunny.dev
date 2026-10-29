@@ -10,7 +10,11 @@ tags:
   - Agents
 description:
   Not too long ago, building an AI agent that could reason, write code, browse the web, and manage files required weeks of infrastructure work. You had to stitch together orchestration logic, manage isolated code-execution sandboxes, and build secure tool-calling frameworks just to get a basic prototype off the ground.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_84dghp84dghp84dg.png
+ 
 ---
+![Autonomous Agents](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_84dghp84dghp84dg.png)
+
 With the recent launch of **Managed Agents** in the Gemini API, Google has collapsed that entire stack into a single API call. Whether you are a developer looking to spin up an autonomous research assistant or an enterprise building secure, multi-agent workflows, the Gemini ecosystem now offers a complete toolkit for agentic development.
 
 Here is a look at how you can build and deploy agents using the Gemini API today.

@@ -11,7 +11,10 @@ tags:
   - TypeScript
 description:
   Stateless chatbots can answer questions. Stateful AI agents can solve problems.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_r7hahvr7hahvr7ha.png
+ 
 ---
+![Stateful AI Agents ](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_r7hahvr7hahvr7ha.png)
 
 Large Language Models (LLMs) have unlocked a new generation of intelligent applications. But as soon as you move beyond a simple chatbot, you'll encounter a fundamental limitation:
 

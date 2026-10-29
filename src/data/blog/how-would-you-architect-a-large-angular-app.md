@@ -10,9 +10,13 @@ tags:
   - WebApp
 description:
   For a large Angular application,  focus on performance, scalability, maintainability, and security by combining lazy loading, dynamic module loading, and role-based access control (RBAC).
+ogImage: "https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_tobdfntobdfntobd.png"
+
 ---
+![large Angular app ](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_tobdfntobdfntobd.png)
 
 ## High-Level Architecture
+
 
 ```text
 App

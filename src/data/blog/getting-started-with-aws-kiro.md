@@ -10,7 +10,10 @@ tags:
   - Devops
 description:
   The landscape of AI-assisted coding is rapidly shifting from simple code generation to complete agentic engineering. If you are looking to accelerate your development workflow while maintaining high standards for code quality, Kiro (built and operated by AWS) is designed to help you bridge the gap between initial prototype and enterprise production.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_uz8ckouz8ckouz8c.png
+ 
 ---
+![Getting Started with AWS](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_uz8ckouz8ckouz8c.png)
 
 Whether you are designing architectural workflows, writing complex applications, or modernizing legacy systems, Kiro works alongside you as a highly capable AI agent.
 

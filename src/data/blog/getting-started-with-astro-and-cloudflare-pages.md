@@ -10,7 +10,10 @@ tags:
   - Astro
 description:
   If you are hunting for the ultimate web development stack—one that delivers blisteringly fast load times, phenomenal developer experience (DX), and seamless global deployments—you’ve likely heard the buzz around Astro and Cloudflare. 
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_3ooa1v3ooa1v3ooa.png
+ 
 ---
+![Getting Started with Astro](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_3ooa1v3ooa1v3ooa.png)
 
 Astro is a modern web framework that pioneered "Island Architecture," shipping zero JavaScript to the client by default. Cloudflare Pages (backed by Cloudflare Workers) is a blazing-fast hosting platform that serves your site from the edge, mere milliseconds away from your users.
 

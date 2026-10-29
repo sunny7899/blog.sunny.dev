@@ -10,7 +10,10 @@ tags:
   - LangGraph
 description:
   AI agents have evolved beyond simple prompt-response interactions. Modern applications need agents that can remember context, recover from failures, coordinate multiple tools, and execute complex workflows over time. This is where stateful AI agents come into play.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_l1dax3l1dax3l1da.png
+ 
 ---
+![Stateful AI Agents](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_l1dax3l1dax3l1da.png)
 
 By combining **LangGraph** with **TypeScript**, developers can build production-ready agents that maintain state, make intelligent decisions, and orchestrate sophisticated workflows while benefiting from TypeScript's strong typing and developer experience.
 

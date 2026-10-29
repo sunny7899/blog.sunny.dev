@@ -9,7 +9,10 @@ tags:
   - Gemini API
 description:
   Documentation has always been written for humans.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_nt3mttnt3mttnt3m.png
+ 
 ---
+![Gemini API](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_nt3mttnt3mttnt3m.png)
 
 The new Chrome built-in Summarizer API is incredibly powerful for edge-based processing, but when you are dealing with massive datasets, complex reasoning, or need to guarantee the output format for a production application, you will want to move to the server-side Gemini API.
 

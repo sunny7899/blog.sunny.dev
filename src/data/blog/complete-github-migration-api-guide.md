@@ -10,7 +10,10 @@ tags:
   - Migration
 description:
   Personal & Organization Repository Migration Using REST APIs
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_dn8wfcdn8wfcdn8w.png
+ 
 ---
+![GitHub Migration](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_dn8wfcdn8wfcdn8w.png)
 
 Migrating repositories between GitHub accounts, organizations, or platforms can become challenging when dealing with multiple repositories, backups, enterprise compliance, or automated DevOps workflows.
 

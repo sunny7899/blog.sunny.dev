@@ -12,7 +12,10 @@ tags:
 description:
   Building agentic AI systems is fundamentally different from building standard chat wrappers. An agent doesn't just generate text; it reasons, plans loops, formats tool calls, retrieves context, and self-corrects on failures.
 
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_m3morum3morum3mo.png
+ 
 ---
+![LLM Recommender ](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_m3morum3morum3mo.png)
 
 Choosing the wrong model breaks your pipeline fast:
 

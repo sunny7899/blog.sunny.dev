@@ -11,7 +11,10 @@ tags:
   - Backend
 description:
   Modern applications demand real-time communication, scalability, and seamless integration across distributed systems. Traditional request-response architectures often struggle when applications need instant updates, asynchronous messaging, and high-throughput event processing. This is where Solace becomes a powerful solution.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_p9gv3op9gv3op9gv.png
+ 
 ---
+![Getting Started with Solace](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_p9gv3op9gv3op9gv.png)
 
 In this guide, you’ll learn:
 

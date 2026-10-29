@@ -11,7 +11,10 @@ tags:
   - WebAssembly
 description:
   In the Rust ecosystem, packages are called crates, and they are managed by Cargo—Rust’s official build system and package manager. Whether you are building a library for others to use or an executable binary, Cargo handles the project creation, building, testing, and publishing processes seamlessly.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_ywqtinywqtinywqt.png
+ 
 ---
+![rust package](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_ywqtinywqtinywqt.png)
 
 
 Here is a step-by-step guide to creating, structuring, and publishing your first Rust library crate to **crates.io** (the official Rust package registry).

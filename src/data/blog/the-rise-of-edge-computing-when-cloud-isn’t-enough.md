@@ -10,7 +10,10 @@ tags:
   - Devops
 description:
   Cloud computing has transformed the way we build and deploy applications. It has made infrastructure scalable, cost-effective, and accessible to organizations of all sizes. From startups launching their first application to global enterprises running mission-critical workloads, the cloud has become the backbone of modern digital innovation.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_qrqvx8qrqvx8qrqv.png
+ 
 ---
+![Edge Computing](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_qrqvx8qrqvx8qrqv.png)
 
 But as the number of connected devices grows into the billions and applications demand real-time responsiveness, a critical challenge emerges: **latency**.
 

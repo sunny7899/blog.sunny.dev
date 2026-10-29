@@ -10,7 +10,10 @@ tags:
   - RAG
 description:
   Artificial Intelligence has moved far beyond chatbots.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_dozg9pdozg9pdozg.png
+ 
 ---
+![Enterprise-Grade AI](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_dozg9pdozg9pdozg.png)
 
 *"The next generation of enterprise software won't just automate workflows—it will reason, retrieve, and act."*
 

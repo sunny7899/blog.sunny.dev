@@ -10,7 +10,10 @@ tags:
   - Devops
 description:
   Imagine opening your favorite streaming platform during a major sporting event and finding it unavailable Or attempting an online payment only to encounter a server error Or searching the web and receiving no results.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_r63pr63pr63pr63p.png
+ 
 ---
+![Site Reliability Engineering ](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_r63pr63pr63pr63p.png)
 
 For companies serving millions—or even billions—of users, every second of downtime can translate into lost revenue, damaged reputation, and frustrated customers.
 

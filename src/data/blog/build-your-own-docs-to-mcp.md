@@ -11,7 +11,10 @@ tags:
   - LLMs
 description:
   Documentation has always been written for humans.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_eofz0deofz0deofz.png
+ 
 ---
+![Docs to MCP](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_eofz0deofz0deofz.png)
 
 AI agents, on the other hand, need structured, searchable, and reliable interfaces to consume knowledge. While Large Language Models are incredibly capable, they still struggle with one major challenge:
 

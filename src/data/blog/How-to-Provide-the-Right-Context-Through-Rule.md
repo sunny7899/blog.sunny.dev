@@ -11,7 +11,10 @@ tags:
   - Engineering
 description:
   Building reliable AI coding workflows requires treating the model not as an omniscient engineer, but as a probabilistic reasoning engine bounded by deterministic guardrails, structured interfaces, and dynamic context injection.  
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_pcuse1pcuse1pcus.png
+ 
 ---
+![Right Context](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_pcuse1pcuse1pcus.png)
 
 
 ## 1. Structuring Context: Rules, Skills, MCP, and Hooks

@@ -11,7 +11,10 @@ tags:
   - productivity
 description:
   Opening a single folder in VS Code works fine for quick edits. But once your project spans multiple microservices, a frontend/backend monorepo, or shared configuration libraries, juggling separate editor windows quickly turns into a context-switching nightmare.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_8mak118mak118mak.png
+ 
 ---
+![Supercharge Your Workflow ](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_8mak118mak118mak.png)
 
 **VS Code Workspaces** solve this by grouping multiple distinct folders into a unified environment with shared tasks, isolated extensions, and dedicated settings.
 

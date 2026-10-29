@@ -10,7 +10,10 @@ tags:
   - AI developments
 description:
   Google's strategy in 2026 has officially shifted from simply answering questions to actively doing work for you. Following Google I/O in May 2026, the company marked the beginning of the "agentic" AI era, rebuilding its entire ecosystem—from Search to Android—around the Gemini family of models.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_p51ebhp51ebhp51e.png
+ 
 ---
+![recent AI developments ](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_p51ebhp51ebhp51e.png)
 
 ### 1. The Rise of Background Agents: Gemini Spark & Daily Brief
 

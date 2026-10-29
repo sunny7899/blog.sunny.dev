@@ -11,7 +11,10 @@ tags:
 description:
   If you've ever waited minutes (or hours) for a build to finish, or chased a phantom bug that magically disappeared after a `make clean`, you know the frustration of traditional build systems. As projects scale, tools that once felt snappy start to drag, heavily impacting developer velocity.
 
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_m3jqd2m3jqd2m3jq.png
+ 
 ---
+![Why Bazel](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_m3jqd2m3jqd2m3jq.png)
 Enter **Bazel**.
 
 Originally developed by Google as an internal tool called Blaze, Bazel is an open-source build and test system designed to handle massive, multi-language codebases with complex dependencies. If you are looking to level up your development workflow, here is why Bazel deserves a spot in your toolkit.

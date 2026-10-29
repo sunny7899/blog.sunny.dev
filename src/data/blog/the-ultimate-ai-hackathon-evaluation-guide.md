@@ -11,7 +11,10 @@ tags:
   - AI Studio
 description:
   When evaluating an AI hackathon—especially one centered around next-generation tools like Google Antigravity or Google AI Studio—traditional rubrics often fall short. You aren't just looking at standard CRUD applications; you are evaluating autonomous agents, multimodal reasoning, and dynamic, vibe-coded environments.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_wtnebkwtnebkwtne.png
+ 
 ---
+![AI Hackathon](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_wtnebkwtnebkwtne.png)
 
 Whether you are organizing a community hackathon or sitting on the judging panel, here is a comprehensive guide and checklist to ensure you evaluate AI projects fairly, rigorously, and effectively.
 

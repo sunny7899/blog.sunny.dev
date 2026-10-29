@@ -12,7 +12,10 @@ tags:
   - Apple
 description:
   The Apple ecosystem continues to grow rapidly, and building iOS applications has never been more exciting. Whether you want to create productivity tools, social apps, AI-powered solutions, or enterprise-grade applications, learning Swift and SwiftUI is the perfect starting point.
+ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_bkrpilbkrpilbkrp.png
+ 
 ---
+![Getting Started with Swift](https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_bkrpilbkrpilbkrp.png)
 
 In this guide, you’ll learn:
 
