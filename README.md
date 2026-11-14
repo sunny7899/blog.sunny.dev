@@ -1,4 +1,5 @@
-
+pnpm run sync
+pnpm run lint
 pnpm run dev
 pnpm run build
 npx wrangler deploy
@@ -19,11 +20,6 @@ CSP Protection
 
 ALT text on images (simulated check on prominent images)
 Provide descriptive alt text for all important images to improve accessibility for visually impaired users and provide context to search engines.
-
-At least 2 pages indexed in Google (simulated)
-Ensure your key pages are indexed by Google. Check using 'site:yourdomain.com' search in Google and monitor Google Search Console.
-Send Message
-sitemap.xml Present
 
 ## Project Structure & File Guide
 

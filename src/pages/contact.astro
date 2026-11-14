@@ -36,7 +36,7 @@ const description = "Get in touch with the author and maintainers of SunnyWriteU
 
         <div class="rounded-lg border border-border p-6 shadow-sm">
           <h2 class="text-xl font-medium mb-4">Send a Message</h2>
-          <form class="space-y-4" action="mailto:apexmansunny@gmail.com" method="post" enctype="text/plain">
+          <form id="contact-form" class="space-y-4">
             <div>
               <label for="name" class="block font-medium mb-1">Your Name</label>
               <input type="text" id="name" name="name" required class="w-full rounded border border-border bg-background px-3 py-2 text-foreground focus:outline-none focus:ring-2 focus:ring-accent" placeholder="John Doe" />
@@ -52,9 +52,10 @@ const description = "Get in touch with the author and maintainers of SunnyWriteU
               <textarea id="message" name="message" rows="4" required class="w-full rounded border border-border bg-background px-3 py-2 text-foreground focus:outline-none focus:ring-2 focus:ring-accent" placeholder="Write your message here..."></textarea>
             </div>
 
-            <button type="submit" class="rounded bg-accent px-5 py-2 font-medium text-accent-foreground transition hover:opacity-90">
+            <button type="submit" class="cursor-pointer rounded bg-accent px-5 py-2 font-medium text-background transition hover:opacity-90">
               Send Message
             </button>
+            <p id="contact-status" class="hidden text-sm text-accent mt-2" role="status"></p>
           </form>
         </div>
       </div>
@@ -62,3 +63,31 @@ const description = "Get in touch with the author and maintainers of SunnyWriteU
   </main>
   <Footer />
 </Layout>
+
+<script>
+  function setupContactForm() {
+    const form = document.getElementById("contact-form") as HTMLFormElement | null;
+    const status = document.getElementById("contact-status");
+    if (!form) return;
+
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const name = String(formData.get("name") ?? "").trim();
+      const email = String(formData.get("email") ?? "").trim();
+      const message = String(formData.get("message") ?? "").trim();
+
+      const subject = encodeURIComponent(`Contact from ${name} via SunnyWriteUps`);
+      const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
+      window.location.href = `mailto:apexmansunny@gmail.com?subject=${subject}&body=${body}`;
+
+      if (status) {
+        status.textContent = "Opening your email client to send the message...";
+        status.classList.remove("hidden");
+      }
+    });
+  }
+
+  setupContactForm();
+  document.addEventListener("astro:after-swap", setupContactForm);
+</script>

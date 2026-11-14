@@ -1,0 +1,18 @@
+# Normalize legacy mixed-case and special-character post slugs (301 Permanent Redirects)
+/posts/Angular-Agentic-Engineering-From-Spec-to-Ship /posts/angular-agentic-engineering-from-spec-to-ship 301
+/posts/angular-Agentic-Engineering-From-Spec-to-Ship /posts/angular-agentic-engineering-from-spec-to-ship 301
+/posts/How-to-Provide-the-Right-Context-Through-Rule /posts/how-to-provide-the-right-context-through-rule 301
+/posts/how-to-Provide-the-Right-Context-Through-Rule /posts/how-to-provide-the-right-context-through-rule 301
+/posts/move-Beyond-Science-Projects-to-Scale-AI-Factory /posts/move-beyond-science-projects-to-scale-ai-factory 301
+/posts/the-rise-of-edge-computing-when-cloud-isn%E2%80%99t-enough /posts/the-rise-of-edge-computing-when-cloud-isnt-enough 301
+
+# Redirect top-level /posts/* URLs for posts inside /posts/angular/*
+/posts/agent-loop-to-handle-angular-upgrades /posts/angular/agent-loop-to-handle-angular-upgrades 301
+/posts/angular-component-dependency-graph /posts/angular/angular-component-dependency-graph 301
+/posts/angular-skills /posts/angular/angular-skills 301
+/posts/demystifying-your-frontend-build-understanding-main-polyfills-and-chunks /posts/angular/demystifying-your-frontend-build-understanding-main-polyfills-and-chunks 301
+/posts/fixing-broken-form-inputs-in-angular-swiftui-webviews /posts/angular/fixing-broken-form-inputs-in-angular-swiftui-webviews 301
+/posts/fullcalendar-in-angular-from-setup-to-drag-and-drop /posts/angular/fullcalendar-in-angular-from-setup-to-drag-and-drop 301
+/posts/how-to-tame-the-browser-disabling-autocorrect-and-autocomplete-in-angular-inputs /posts/angular/how-to-tame-the-browser-disabling-autocorrect-and-autocomplete-in-angular-inputs 301
+/posts/package-json-guide-to-our-angular-architecture /posts/angular/package-json-guide-to-our-angular-architecture 301
+/posts/the-control-room-of-your-angular-workspace /posts/angular/the-control-room-of-your-angular-workspace 301

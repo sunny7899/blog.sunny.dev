@@ -15,9 +15,15 @@ import { SITE } from "./src/config";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
+  trailingSlash: "never",
   integrations: [
     sitemap({
-      filter: page => SITE.showArchives || !page.endsWith("/archives"),
+      filter: page =>
+        (SITE.showArchives || !page.endsWith("/archives")) &&
+        !page.endsWith("/search") &&
+        !page.endsWith("/search/") &&
+        !page.endsWith("/404") &&
+        !page.endsWith("/404/"),
     }),
   ],
   markdown: {

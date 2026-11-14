@@ -2,7 +2,7 @@
 title: The Rise of Edge Computing When Cloud Isn’t Enough
 author: Sunny
 pubDatetime: 2026-06-22T04:06:31Z
-slug: the-rise-of-edge-computing-when-cloud-isn’t-enough
+slug: the-rise-of-edge-computing-when-cloud-isnt-enough
 featured: false
 draft: false
 tags:

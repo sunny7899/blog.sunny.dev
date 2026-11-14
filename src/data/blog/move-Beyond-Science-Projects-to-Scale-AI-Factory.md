@@ -2,7 +2,7 @@
 title: The AI Factory How Organizations Move Beyond Science Projects to Scale AI
 author: Sunny
 pubDatetime: 2026-11-14T04:06:31Z
-slug: move-Beyond-Science-Projects-to-Scale-AI-Factory
+slug: move-beyond-science-projects-to-scale-ai-factory
 featured: false
 draft: false
 tags:

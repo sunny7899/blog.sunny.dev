@@ -2,7 +2,7 @@
 title: How to Provide the Right Context Through Rules, Skills, MCP, and Hooks, How to Evaluate Modularization with AI and Architecture Tools, and How to Use Deterministic Checks as Guardrails for Coding Agents
 author: Sunny
 pubDatetime: 2026-09-26T04:06:31Z
-slug: how-to-Provide-the-Right-Context-Through-Rule
+slug: how-to-provide-the-right-context-through-rule
 featured: false
 draft: false
 tags:
