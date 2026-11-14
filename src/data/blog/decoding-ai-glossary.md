@@ -6,7 +6,7 @@ slug: decoding-ai-glossary
 featured: false
 draft: false
 tags:
-  - AI terms
+  - AI
 description:
   It feels like overnight, the world started speaking a new language. If your inbox, newsfeed, and meetings are suddenly flooded with acronyms like LLM, RAG, and GenAI, you aren't alone. As artificial intelligence continues to evolve at breakneck speed, keeping up with the terminology is half the battle.
 ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/licensed-image.jpg)

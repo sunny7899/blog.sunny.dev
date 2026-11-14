@@ -10,12 +10,9 @@ pnpm approve-build
 
 pnpm dlx @astrojs/upgrade
 
-https://adsenseapprovalchecker.net/
+https://buildwithsunny.com/
 
-doamin shorten or buy
-Top Level Domain Consider using .com, .org, or .net
 Analytics Tools - GA4/GTM add google analytics
-https://tagmanager.google.com/?authuser=2#/home#tags
 work on
 HSTS Status
 CSP Protection
@@ -26,8 +23,7 @@ Provide descriptive alt text for all important images to improve accessibility f
 At least 2 pages indexed in Google (simulated)
 Ensure your key pages are indexed by Google. Check using 'site:yourdomain.com' search in Google and monitor Google Search Console.
 Send Message
-
-Cloudflare R2 
+sitemap.xml Present
 
 ## Project Structure & File Guide
 

@@ -1,5 +1,5 @@
 ---
-title: building your own interpreter and custom compiler from scratch. 
+title: Building your own interpreter and custom compiler from scratch. 
 author: Sunny
 pubDatetime: 2026-10-29T04:06:31Z
 slug: building-your-own-interpreter-and-compiler-from-scratch

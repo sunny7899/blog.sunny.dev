@@ -139,3 +139,17 @@ veo3 video editing mode, 
 
 ### Gemini 4 Argon 
 It is amongst the leading models in intelligence and reasonably priced when comparing to other models of similar price. The model supports text and image input, outputs text, and has a 1M tokens context window.
+
+Solve long-horizon engineering and security tasks
+Hand Argon a goal—like migrating C++ to Rust, or remediating security vulnerabilities. It will build verification harnesses, test against runtime feedback, and iterate independently until the task is complete.
+
+///
+ 
+Transform critical business and professional workflows
+Point Argon at a mixed directory of videos, spreadsheets, and PDFs. It will cross-reference facts across formats to generate interactive dashboards or audited documents.
+
+///
+ 
+Build 3D visualizations, simulations, and full-stack apps
+Combine Argon's spatial reasoning and visual code generation across tools like Blender, Three.js, and WebGPU to build complex 3D scenes, physics simulations, and full-stack web apps. Check out the guide for practical workflows.
+https://aistudio.google.com/apps?source=showcase&showcaseTag=featured

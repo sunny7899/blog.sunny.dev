@@ -7,6 +7,7 @@ featured: false
 draft: false
 tags:
   - MongoDB
+  - Database
 description:
     MongoDB has become one of the most popular NoSQL databases because of its flexibility, scalability, and developer-friendly document model. Whether you're building a startup MVP, a SaaS platform, or a large-scale enterprise application, MongoDB provides the tools needed to handle modern workloads.
 ogImage: https://pub-084cb927976c4020b1cc9f91f5f56f6b.r2.dev/posts/Gemini_Generated_Image_haahynhaahynhaah.png

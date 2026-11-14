@@ -2,7 +2,7 @@
 title: Angular Agentic Engineering From Spec to Ship
 author: Sunny
 pubDatetime: 2026-10-02T04:06:31Z
-slug: Angular-Agentic-Engineering-From-Spec-to-Ship
+slug: angular-Agentic-Engineering-From-Spec-to-Ship
 featured: false
 draft: false
 tags:
